@@ -528,7 +528,7 @@
                 </svg>
                 <i class="bi bi-browser-chrome"></i>
               </div>
-              <a href="services/web_service-details.html" class="stretched-link">
+              <a href="services/web_service-details.php" class="stretched-link">
                 <h3>Développement Web</h3>
               </a>
               <p>Création de sites web modernes et adaptatifs (responsive) pour garantir une expérience optimale sur tous les écrans.</p>
@@ -545,7 +545,7 @@
                 </svg>
                 <i class="bi bi-palette"></i>
               </div>
-              <a href="services/grahisme_service-details.html" class="stretched-link">
+              <a href="services/grahisme_service-details.php" class="stretched-link">
                 <h3>Graphisme</h3>
               </a>
               <p>Je vous propose des services de graphisme créatif et professionnel pour donner vie à vos idées visuelles.</p>
@@ -562,7 +562,7 @@
                 </svg>
                 <i class="bi bi-phone"></i>
               </div>
-              <a href="services/mobile_service-details.html" class="stretched-link">
+              <a href="services/mobile_service-details.php" class="stretched-link">
                 <h3>Développement d'Applications Mobiles</h3>
               </a>
               <p>Création d'applications mobiles personnalisées qui répondent aux besoins spécifiques de chaque client, en offrant une expérience utilisateur fluide et efficace.</p>
@@ -579,11 +579,11 @@
                 </svg>
                 <i class="bi bi-calendar4-week"></i>
               </div>
-              <a href="services/gestion_service-details.html" class="stretched-link">
+              <a href="services/gestion_service-details.php" class="stretched-link">
                 <h3>Gestion de Projet Informatique</h3>
               </a>
               <p>Je vous accompagne dans la réussite de vos projets informatiques, de la conception à la livraison finale.</p>
-              <a href="services/gestion_service-details.html" class="stretched-link"></a>
+              <a href="services/gestion_service-details.php" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
 
@@ -597,11 +597,11 @@
                 </svg>
                 <i class="bi bi-lightbulb"></i>
               </div>
-              <a href="services/ui-ux_service-details.html" class="stretched-link">
+              <a href="services/ui-ux_service-details.php" class="stretched-link">
                 <h3>UI/UX Design</h3>
               </a>
               <p>Conception d'interfaces utilisateur intuitives et attrayantes pour offrir une expérience optimale sur mobile et sur web.</p>
-              <a href="services/ui-ux_service-details.html" class="stretched-link"></a>
+              <a href="services/ui-ux_service-details.php" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
 
@@ -615,12 +615,12 @@
                 </svg>
                 <i class="bi bi-tools"></i>
               </div>
-              <a href="services/assistance_service-details.html" class="stretched-link">
+              <a href="services/assistance_service-details.php" class="stretched-link">
                 <h3>Assistance Technique</h3>
               </a>
               <p>Je vous propose un service d'assistance technique complet pour vous aider à résoudre vos problèmes informatiques 
                 et garantir le bon fonctionnement de vos systèmes et applications.</p>
-              <a href="services/assistance_service-details.html" class="stretched-link"></a>
+              <a href="services/assistance_service-details.php" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
 
@@ -855,28 +855,9 @@
 
   </main>
 
-  <footer id="footer" class="footer position-relative light-background">
-    <div class="container">
-      <h3 class="sitename">Bilel HOUNGAN</h3>
-      <p>Mon objectif est de créer des applications innovantes et d'améliorer mes compétences.</p>
-      <div class="social-links d-flex justify-content-center">
-        <a href="https://x.com/BilelHoungan/"><i class="bi bi-twitter-x"></i></a>
-        <a href="https://web.facebook.com/bilellouis.houngan?locale=fr_FR"><i class="bi bi-facebook"></i></a>
-        <a href=""><i class="bi bi-whatsapp"></i></a>
-        <a href="https://github.com/BilelDespecio"><i class="bi bi-github"></i></a>
-        <a href="https://www.linkedin.com/in/bilel-houngan-8b7a87266/"><i class="bi bi-linkedin"></i></a>
-      </div>
-      <div class="container">
-        <div class="copyright">
-          <span>Copyright</span> <strong class="px-1 sitename">Despecio.ent</strong>
-          <!--<span>All Rights Reserved</span>-->
-        </div>
-        <div class="credits">
-          Designed by <a href="despecio.io">Despecio.ent</a>
-        </div>
-      </div>
-    </div>
-  </footer>
+  <?php
+    require 'footer.php';
+  ?>
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
