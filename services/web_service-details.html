@@ -34,7 +34,25 @@
 <body class="service-details-page">
 
     <!-- Navigation -->
-    <?php include 'nav_bar.php'; ?>
+    <header id="header" class="header d-flex flex-column justify-content-center">
+
+        <i class="header-toggle d-xl-none bi bi-list"></i>
+        
+        <nav id="navmenu" class="navmenu">
+            <ul>
+                <li><a href="../index.html#hero"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
+                <li><a href="../index.html#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
+                <li><a href="../index.html#resume"><i
+                            class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
+                <li><a href="../index.html#portfolio"><i class="bi bi-images navicon"></i><span>Portfolio</span></a>
+                </li>
+                <li><a href="../index.html#services"><i class="bi bi-hdd-stack navicon"></i><span>Services</span></a>
+                </li>
+                <li><a href="../index.html#contact"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li>
+            </ul>
+        </nav>
+        
+        </header>>
 
     <!-- Main Content -->
     <main class="main">
@@ -44,7 +62,7 @@
             <div class="container">
                 <nav class="breadcrumbs">
                     <ol>
-                        <li><a href="../index.php">Accueil</a></li>
+                        <li><a href="../index.html">Accueil</a></li>
                         <li class="current">Détails du Service</li>
                     </ol>
                 </nav>
@@ -98,7 +116,30 @@
     </main>
 
     <!-- Footer -->
-    <?php include 'footer.php'; ?>
+ 
+
+<footer id="footer" class="footer position-relative light-background">
+    <div class="container">
+      <h3 class="sitename">Bilel HOUNGAN</h3>
+      <p>Mon objectif est de créer des applications innovantes et d'améliorer mes compétences.</p>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://x.com/BilelHoungan/"><i class="bi bi-twitter-x"></i></a>
+        <a href="https://web.facebook.com/bilellouis.houngan?locale=fr_FR"><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-whatsapp"></i></a>
+        <a href="https://github.com/BilelDespecio"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/bilel-houngan-8b7a87266/"><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <span>Copyright</span> <strong class="px-1 sitename">Despecio.ent</strong>
+          <!--<span>All Rights Reserved</span>-->
+        </div>
+        <div class="credits">
+          Designed by <a href="despecio.io">Despecio.ent</a>
+        </div>
+      </div>
+    </div>
+  </footer>
 
     <!-- Scroll Top -->
     <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>

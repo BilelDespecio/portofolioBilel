@@ -29,13 +29,30 @@
     <!-- Main CSS File -->
     <link href="../assets/css/main.css" rel="stylesheet">
 
+
 </head>
 
 <body class="service-details-page">
 
-<?php
-        require 'nav_bar.php'
-    ?>
+    <header id="header" class="header d-flex flex-column justify-content-center">
+
+        <i class="header-toggle d-xl-none bi bi-list"></i>
+        
+        <nav id="navmenu" class="navmenu">
+            <ul>
+                <li><a href="../index.html#hero"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
+                <li><a href="../index.html#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
+                <li><a href="../index.html#resume"><i
+                            class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
+                <li><a href="../index.html#portfolio"><i class="bi bi-images navicon"></i><span>Portfolio</span></a>
+                </li>
+                <li><a href="../index.html#services"><i class="bi bi-hdd-stack navicon"></i><span>Services</span></a>
+                </li>
+                <li><a href="../index.html#contact"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li>
+            </ul>
+        </nav>
+        
+        </header>
 
     <main class="main">
 
@@ -44,11 +61,11 @@
             <div class="container">
                 <nav class="breadcrumbs">
                     <ol>
-                        <li><a href="../index.php">Home</a></li>
+                        <li><a href="../index.html">Home</a></li>
                         <li class="current">Service Details</li>
                     </ol>
                 </nav>
-                <h1>UI/UX Design</h1>
+                <h1>Graphisme</h1>
             </div>
         </div><!-- End Page Title -->
 
@@ -61,18 +78,18 @@
 
 
                 <div class="col-lg-8 ps-lg-5" data-aos="fade-up" data-aos-delay="200">
-    <img src="../assets/img/services/ui_ux.jpg" alt="UI/UX Design" class="img-fluid services-img">
-    <h3>Design UI/UX Centré sur l'Utilisateur</h3>
+    <img src="../assets/img/services/graphiste.jpg" alt="Graphisme" height="100" class="img-fluid services-img">
+    <h3>Création Graphique Unique et Impactante</h3>
     <p>
-        Offrez à vos utilisateurs une expérience exceptionnelle grâce à nos designs UI/UX. Nous créons des interfaces ergonomiques et intuitives qui augmentent l'engagement et la satisfaction.
+        Nous transformons vos idées en visuels qui attirent l’attention et renforcent votre image de marque. Offrez une identité forte à votre entreprise grâce à nos designs sur mesure.
     </p>
     <ul>
-        <li><i class="bi bi-check-circle"></i> <span>Prototypage et wireframing.</span></li>
-        <li><i class="bi bi-check-circle"></i> <span>Design d'interfaces interactives.</span></li>
-        <li><i class="bi bi-check-circle"></i> <span>Optimisation de l'expérience utilisateur.</span></li>
+        <li><i class="bi bi-check-circle"></i> <span>Conception de logos et chartes graphiques.</span></li>
+        <li><i class="bi bi-check-circle"></i> <span>Création de supports publicitaires (affiches, flyers, brochures).</span></li>
+        <li><i class="bi bi-check-circle"></i> <span>Designs numériques pour sites web et réseaux sociaux.</span></li>
     </ul>
     <p>
-        Améliorez la valeur perçue de vos produits et services avec des designs modernes, épurés et centrés sur les besoins réels de vos utilisateurs.
+        Mettez en valeur votre marque avec des designs créatifs et adaptés à votre audience cible.
     </p>
 </div>
 
@@ -97,9 +114,31 @@
 
     </main>
 
-    <?php
-        require 'footer.php';
-    ?>
+
+
+    <footer id="footer" class="footer position-relative light-background">
+        <div class="container">
+          <h3 class="sitename">Bilel HOUNGAN</h3>
+          <p>Mon objectif est de créer des applications innovantes et d'améliorer mes compétences.</p>
+          <div class="social-links d-flex justify-content-center">
+            <a href="https://x.com/BilelHoungan/"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://web.facebook.com/bilellouis.houngan?locale=fr_FR"><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-whatsapp"></i></a>
+            <a href="https://github.com/BilelDespecio"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/in/bilel-houngan-8b7a87266/"><i class="bi bi-linkedin"></i></a>
+          </div>
+          <div class="container">
+            <div class="copyright">
+              <span>Copyright</span> <strong class="px-1 sitename">Despecio.ent</strong>
+              <!--<span>All Rights Reserved</span>-->
+            </div>
+            <div class="credits">
+              Designed by <a href="despecio.io">Despecio.ent</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    
 
     <!-- Scroll Top -->
     <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
